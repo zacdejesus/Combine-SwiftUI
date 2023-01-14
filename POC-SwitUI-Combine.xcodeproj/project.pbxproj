@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19D137D829732AB800E965D6 /* POC_SwitUI_CombineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D137D729732AB800E965D6 /* POC_SwitUI_CombineApp.swift */; };
+		19D137DA29732AB800E965D6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D137D929732AB800E965D6 /* Persistence.swift */; };
+		19D137DD29732AB800E965D6 /* POC_SwitUI_Combine.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 19D137DB29732AB800E965D6 /* POC_SwitUI_Combine.xcdatamodeld */; };
+		19D137DF29732AB800E965D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D137DE29732AB800E965D6 /* ContentView.swift */; };
+		19D137E129732AB900E965D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19D137E029732AB900E965D6 /* Assets.xcassets */; };
+		19D137E529732AB900E965D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19D137E429732AB900E965D6 /* Preview Assets.xcassets */; };
+		19D137EF29732ABA00E965D6 /* POC_SwitUI_CombineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D137EE29732ABA00E965D6 /* POC_SwitUI_CombineTests.swift */; };
+		19D137F929732ABA00E965D6 /* POC_SwitUI_CombineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D137F829732ABA00E965D6 /* POC_SwitUI_CombineUITests.swift */; };
+		19D137FB29732ABA00E965D6 /* POC_SwitUI_CombineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D137FA29732ABA00E965D6 /* POC_SwitUI_CombineUITestsLaunchTests.swift */; };
+		19D1380929732C6E00E965D6 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D1380829732C6E00E965D6 /* WebService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19D137EB29732ABA00E965D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19D137CC29732AB800E965D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19D137D329732AB800E965D6;
+			remoteInfo = "POC-SwitUI-Combine";
+		};
+		19D137F529732ABA00E965D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19D137CC29732AB800E965D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19D137D329732AB800E965D6;
+			remoteInfo = "POC-SwitUI-Combine";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19D137D429732AB800E965D6 /* POC-SwitUI-Combine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "POC-SwitUI-Combine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19D137D729732AB800E965D6 /* POC_SwitUI_CombineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POC_SwitUI_CombineApp.swift; sourceTree = "<group>"; };
+		19D137D929732AB800E965D6 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		19D137DC29732AB800E965D6 /* POC_SwitUI_Combine.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = POC_SwitUI_Combine.xcdatamodel; sourceTree = "<group>"; };
+		19D137DE29732AB800E965D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		19D137E029732AB900E965D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19D137E229732AB900E965D6 /* POC_SwitUI_Combine.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = POC_SwitUI_Combine.entitlements; sourceTree = "<group>"; };
+		19D137E429732AB900E965D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		19D137EA29732ABA00E965D6 /* POC-SwitUI-CombineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "POC-SwitUI-CombineTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19D137EE29732ABA00E965D6 /* POC_SwitUI_CombineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POC_SwitUI_CombineTests.swift; sourceTree = "<group>"; };
+		19D137F429732ABA00E965D6 /* POC-SwitUI-CombineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "POC-SwitUI-CombineUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19D137F829732ABA00E965D6 /* POC_SwitUI_CombineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POC_SwitUI_CombineUITests.swift; sourceTree = "<group>"; };
+		19D137FA29732ABA00E965D6 /* POC_SwitUI_CombineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POC_SwitUI_CombineUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		19D1380829732C6E00E965D6 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19D137D129732AB800E965D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19D137E729732ABA00E965D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19D137F129732ABA00E965D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19D137CB29732AB800E965D6 = {
+			isa = PBXGroup;
+			children = (
+				19D137D629732AB800E965D6 /* POC-SwitUI-Combine */,
+				19D137ED29732ABA00E965D6 /* POC-SwitUI-CombineTests */,
+				19D137F729732ABA00E965D6 /* POC-SwitUI-CombineUITests */,
+				19D137D529732AB800E965D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19D137D529732AB800E965D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19D137D429732AB800E965D6 /* POC-SwitUI-Combine.app */,
+				19D137EA29732ABA00E965D6 /* POC-SwitUI-CombineTests.xctest */,
+				19D137F429732ABA00E965D6 /* POC-SwitUI-CombineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19D137D629732AB800E965D6 /* POC-SwitUI-Combine */ = {
+			isa = PBXGroup;
+			children = (
+				19D1380729732C5A00E965D6 /* Services */,
+				19D137D729732AB800E965D6 /* POC_SwitUI_CombineApp.swift */,
+				19D137D929732AB800E965D6 /* Persistence.swift */,
+				19D137DE29732AB800E965D6 /* ContentView.swift */,
+				19D137E029732AB900E965D6 /* Assets.xcassets */,
+				19D137E229732AB900E965D6 /* POC_SwitUI_Combine.entitlements */,
+				19D137DB29732AB800E965D6 /* POC_SwitUI_Combine.xcdatamodeld */,
+				19D137E329732AB900E965D6 /* Preview Content */,
+			);
+			path = "POC-SwitUI-Combine";
+			sourceTree = "<group>";
+		};
+		19D137E329732AB900E965D6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				19D137E429732AB900E965D6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		19D137ED29732ABA00E965D6 /* POC-SwitUI-CombineTests */ = {
+			isa = PBXGroup;
+			children = (
+				19D137EE29732ABA00E965D6 /* POC_SwitUI_CombineTests.swift */,
+			);
+			path = "POC-SwitUI-CombineTests";
+			sourceTree = "<group>";
+		};
+		19D137F729732ABA00E965D6 /* POC-SwitUI-CombineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				19D137F829732ABA00E965D6 /* POC_SwitUI_CombineUITests.swift */,
+				19D137FA29732ABA00E965D6 /* POC_SwitUI_CombineUITestsLaunchTests.swift */,
+			);
+			path = "POC-SwitUI-CombineUITests";
+			sourceTree = "<group>";
+		};
+		19D1380729732C5A00E965D6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				19D1380829732C6E00E965D6 /* WebService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19D137D329732AB800E965D6 /* POC-SwitUI-Combine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19D137FE29732ABA00E965D6 /* Build configuration list for PBXNativeTarget "POC-SwitUI-Combine" */;
+			buildPhases = (
+				19D137D029732AB800E965D6 /* Sources */,
+				19D137D129732AB800E965D6 /* Frameworks */,
+				19D137D229732AB800E965D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "POC-SwitUI-Combine";
+			productName = "POC-SwitUI-Combine";
+			productReference = 19D137D429732AB800E965D6 /* POC-SwitUI-Combine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19D137E929732ABA00E965D6 /* POC-SwitUI-CombineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19D1380129732ABA00E965D6 /* Build configuration list for PBXNativeTarget "POC-SwitUI-CombineTests" */;
+			buildPhases = (
+				19D137E629732ABA00E965D6 /* Sources */,
+				19D137E729732ABA00E965D6 /* Frameworks */,
+				19D137E829732ABA00E965D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19D137EC29732ABA00E965D6 /* PBXTargetDependency */,
+			);
+			name = "POC-SwitUI-CombineTests";
+			productName = "POC-SwitUI-CombineTests";
+			productReference = 19D137EA29732ABA00E965D6 /* POC-SwitUI-CombineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		19D137F329732ABA00E965D6 /* POC-SwitUI-CombineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19D1380429732ABA00E965D6 /* Build configuration list for PBXNativeTarget "POC-SwitUI-CombineUITests" */;
+			buildPhases = (
+				19D137F029732ABA00E965D6 /* Sources */,
+				19D137F129732ABA00E965D6 /* Frameworks */,
+				19D137F229732ABA00E965D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19D137F629732ABA00E965D6 /* PBXTargetDependency */,
+			);
+			name = "POC-SwitUI-CombineUITests";
+			productName = "POC-SwitUI-CombineUITests";
+			productReference = 19D137F429732ABA00E965D6 /* POC-SwitUI-CombineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19D137CC29732AB800E965D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					19D137D329732AB800E965D6 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					19D137E929732ABA00E965D6 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 19D137D329732AB800E965D6;
+					};
+					19D137F329732ABA00E965D6 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 19D137D329732AB800E965D6;
+					};
+				};
+			};
+			buildConfigurationList = 19D137CF29732AB800E965D6 /* Build configuration list for PBXProject "POC-SwitUI-Combine" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19D137CB29732AB800E965D6;
+			productRefGroup = 19D137D529732AB800E965D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19D137D329732AB800E965D6 /* POC-SwitUI-Combine */,
+				19D137E929732ABA00E965D6 /* POC-SwitUI-CombineTests */,
+				19D137F329732ABA00E965D6 /* POC-SwitUI-CombineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19D137D229732AB800E965D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19D137E529732AB900E965D6 /* Preview Assets.xcassets in Resources */,
+				19D137E129732AB900E965D6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19D137E829732ABA00E965D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19D137F229732ABA00E965D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19D137D029732AB800E965D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19D137DD29732AB800E965D6 /* POC_SwitUI_Combine.xcdatamodeld in Sources */,
+				19D137D829732AB800E965D6 /* POC_SwitUI_CombineApp.swift in Sources */,
+				19D137DF29732AB800E965D6 /* ContentView.swift in Sources */,
+				19D1380929732C6E00E965D6 /* WebService.swift in Sources */,
+				19D137DA29732AB800E965D6 /* Persistence.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19D137E629732ABA00E965D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19D137EF29732ABA00E965D6 /* POC_SwitUI_CombineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19D137F029732ABA00E965D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19D137FB29732ABA00E965D6 /* POC_SwitUI_CombineUITestsLaunchTests.swift in Sources */,
+				19D137F929732ABA00E965D6 /* POC_SwitUI_CombineUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19D137EC29732ABA00E965D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19D137D329732AB800E965D6 /* POC-SwitUI-Combine */;
+			targetProxy = 19D137EB29732ABA00E965D6 /* PBXContainerItemProxy */;
+		};
+		19D137F629732ABA00E965D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19D137D329732AB800E965D6 /* POC-SwitUI-Combine */;
+			targetProxy = 19D137F529732ABA00E965D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		19D137FC29732ABA00E965D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		19D137FD29732ABA00E965D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		19D137FF29732ABA00E965D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "POC-SwitUI-Combine/POC_SwitUI_Combine.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"POC-SwitUI-Combine/Preview Content\"";
+				DEVELOPMENT_TEAM = DTJLZH295U;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alejandroDeJesus.POC-SwitUI-Combine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19D1380029732ABA00E965D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "POC-SwitUI-Combine/POC_SwitUI_Combine.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"POC-SwitUI-Combine/Preview Content\"";
+				DEVELOPMENT_TEAM = DTJLZH295U;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alejandroDeJesus.POC-SwitUI-Combine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		19D1380229732ABA00E965D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DTJLZH295U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alejandroDeJesus.POC-SwitUI-CombineTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POC-SwitUI-Combine.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/POC-SwitUI-Combine";
+			};
+			name = Debug;
+		};
+		19D1380329732ABA00E965D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DTJLZH295U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alejandroDeJesus.POC-SwitUI-CombineTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POC-SwitUI-Combine.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/POC-SwitUI-Combine";
+			};
+			name = Release;
+		};
+		19D1380529732ABA00E965D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DTJLZH295U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alejandroDeJesus.POC-SwitUI-CombineUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "POC-SwitUI-Combine";
+			};
+			name = Debug;
+		};
+		19D1380629732ABA00E965D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DTJLZH295U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alejandroDeJesus.POC-SwitUI-CombineUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "POC-SwitUI-Combine";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19D137CF29732AB800E965D6 /* Build configuration list for PBXProject "POC-SwitUI-Combine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19D137FC29732ABA00E965D6 /* Debug */,
+				19D137FD29732ABA00E965D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19D137FE29732ABA00E965D6 /* Build configuration list for PBXNativeTarget "POC-SwitUI-Combine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19D137FF29732ABA00E965D6 /* Debug */,
+				19D1380029732ABA00E965D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19D1380129732ABA00E965D6 /* Build configuration list for PBXNativeTarget "POC-SwitUI-CombineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19D1380229732ABA00E965D6 /* Debug */,
+				19D1380329732ABA00E965D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19D1380429732ABA00E965D6 /* Build configuration list for PBXNativeTarget "POC-SwitUI-CombineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19D1380529732ABA00E965D6 /* Debug */,
+				19D1380629732ABA00E965D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		19D137DB29732AB800E965D6 /* POC_SwitUI_Combine.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				19D137DC29732AB800E965D6 /* POC_SwitUI_Combine.xcdatamodel */,
+			);
+			currentVersion = 19D137DC29732AB800E965D6 /* POC_SwitUI_Combine.xcdatamodel */;
+			path = POC_SwitUI_Combine.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 19D137CC29732AB800E965D6 /* Project object */;
+}
