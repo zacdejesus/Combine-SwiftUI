@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		190F629E2973B3A700A76D0A /* StoryDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190F629D2973B3A700A76D0A /* StoryDetailModel.swift */; };
+		190F62A12973B56200A76D0A /* StoryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190F62A02973B56200A76D0A /* StoryDetailView.swift */; };
 		19D137D829732AB800E965D6 /* POC_SwitUI_CombineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D137D729732AB800E965D6 /* POC_SwitUI_CombineApp.swift */; };
 		19D137DA29732AB800E965D6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D137D929732AB800E965D6 /* Persistence.swift */; };
 		19D137DD29732AB800E965D6 /* POC_SwitUI_Combine.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 19D137DB29732AB800E965D6 /* POC_SwitUI_Combine.xcdatamodeld */; };
@@ -18,6 +20,7 @@
 		19D137FB29732ABA00E965D6 /* POC_SwitUI_CombineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D137FA29732ABA00E965D6 /* POC_SwitUI_CombineUITestsLaunchTests.swift */; };
 		19D1380929732C6E00E965D6 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D1380829732C6E00E965D6 /* WebService.swift */; };
 		19D1380C29732EA400E965D6 /* StoryListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D1380B29732EA400E965D6 /* StoryListViewModel.swift */; };
+		19D1380F2973356F00E965D6 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D1380E2973356F00E965D6 /* Story.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		190F629D2973B3A700A76D0A /* StoryDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryDetailModel.swift; sourceTree = "<group>"; };
+		190F62A02973B56200A76D0A /* StoryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryDetailView.swift; sourceTree = "<group>"; };
 		19D137D429732AB800E965D6 /* POC-SwitUI-Combine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "POC-SwitUI-Combine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19D137D729732AB800E965D6 /* POC_SwitUI_CombineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POC_SwitUI_CombineApp.swift; sourceTree = "<group>"; };
 		19D137D929732AB800E965D6 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -53,6 +58,7 @@
 		19D137FA29732ABA00E965D6 /* POC_SwitUI_CombineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POC_SwitUI_CombineUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		19D1380829732C6E00E965D6 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		19D1380B29732EA400E965D6 /* StoryListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryListViewModel.swift; sourceTree = "<group>"; };
+		19D1380E2973356F00E965D6 /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		190F629F2973B53900A76D0A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				190F62A02973B56200A76D0A /* StoryDetailView.swift */,
+				19D137DE29732AB800E965D6 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		19D137CB29732AB800E965D6 = {
 			isa = PBXGroup;
 			children = (
@@ -103,11 +118,12 @@
 		19D137D629732AB800E965D6 /* POC-SwitUI-Combine */ = {
 			isa = PBXGroup;
 			children = (
+				190F629F2973B53900A76D0A /* Views */,
+				19D1380D2973356200E965D6 /* Models */,
 				19D1380A29732E7800E965D6 /* viewModels */,
 				19D1380729732C5A00E965D6 /* Services */,
 				19D137D729732AB800E965D6 /* POC_SwitUI_CombineApp.swift */,
 				19D137D929732AB800E965D6 /* Persistence.swift */,
-				19D137DE29732AB800E965D6 /* ContentView.swift */,
 				19D137E029732AB900E965D6 /* Assets.xcassets */,
 				19D137E229732AB900E965D6 /* POC_SwitUI_Combine.entitlements */,
 				19D137DB29732AB800E965D6 /* POC_SwitUI_Combine.xcdatamodeld */,
@@ -153,8 +169,17 @@
 			isa = PBXGroup;
 			children = (
 				19D1380B29732EA400E965D6 /* StoryListViewModel.swift */,
+				190F629D2973B3A700A76D0A /* StoryDetailModel.swift */,
 			);
 			path = viewModels;
+			sourceTree = "<group>";
+		};
+		19D1380D2973356200E965D6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				19D1380E2973356F00E965D6 /* Story.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,11 +312,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				190F62A12973B56200A76D0A /* StoryDetailView.swift in Sources */,
+				19D1380F2973356F00E965D6 /* Story.swift in Sources */,
 				19D137DD29732AB800E965D6 /* POC_SwitUI_Combine.xcdatamodeld in Sources */,
 				19D137D829732AB800E965D6 /* POC_SwitUI_CombineApp.swift in Sources */,
 				19D137DF29732AB800E965D6 /* ContentView.swift in Sources */,
 				19D1380929732C6E00E965D6 /* WebService.swift in Sources */,
 				19D1380C29732EA400E965D6 /* StoryListViewModel.swift in Sources */,
+				190F629E2973B3A700A76D0A /* StoryDetailModel.swift in Sources */,
 				19D137DA29732AB800E965D6 /* Persistence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
