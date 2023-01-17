@@ -19,7 +19,7 @@ class StoryListViewModel: ObservableObject {
     
     private func fetchTopStories() {
         cancellable = WebService().getallTopStories().map { storyIds in
-            storyIds.map { StoryViewModel(id: $0) }
+            storyIds.map { StoryViewModel(id: $0.id, title: $0.title ) }
         }.sink { _ in } receiveValue: { [weak self] storyViewModels in
             self?.stories  = storyViewModels
         }
@@ -29,4 +29,5 @@ class StoryListViewModel: ObservableObject {
 
 struct StoryViewModel {
     let id: Int
+    let title: String
 }

@@ -16,10 +16,10 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List(self.storyViewListModel.stories, id: \.id) { storyVM in
-                NavigationLink(destination: StoryDetailView(storyId: storyVM.id)) {
-                    Text("\(storyVM.id)")
+                NavigationLink(destination:
+                                StoryDetailView(storyId: storyVM.id)) {
+                    Text("\(storyVM.title)")
                 }
-                Text("\(storyVM.id)")
             }
             .navigationTitle("Hacker news")
         }

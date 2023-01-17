@@ -10,15 +10,21 @@ import SwiftUI
 
 struct StoryDetailView: View {
     
-    @ObservedObject private var StoryDetailVM: StoryDetailModel
+    @ObservedObject private var storyDetailVM: StoryDetailModel
+    
+    var storyId: Int
     
     init(storyId: Int) {
-        self.StoryDetailVM = StoryDetailModel(id: storyId)
+        self.storyDetailVM = StoryDetailModel()
+        self.storyId = storyId
     }
     
     var body: some View {
         VStack {
-            Text(StoryDetailVM.title)
+            Text(storyDetailVM.title)
+            Webview(url: storyDetailVM.url)
+        }.onAppear {
+            storyDetailVM.getData(id: storyId)
         }
     }
 }
